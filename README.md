@@ -3,7 +3,7 @@ moment-objectid
 
 Format a `moment` instance as ObjectId-string for use in MongoDB queries.
 
-As per spec an `ObjectId` contains a timestamp as the first eight bytes.
+As per spec an `ObjectId` contains a timestamp as the first eight characters (four bytes in BSON).
 Think of it this way: the `_id` field in MongoDB already contains a `createdAt` timestamp. Yay. And it's already indexed. Double yay!
 
 This module extends the `Moment` prototype and adds a new `toObjectId` method. Note that it returns a `string`, not an instance of `ObjectId` (because this depends on the driver you use).
