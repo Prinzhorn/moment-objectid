@@ -1,0 +1,30 @@
+{
+  "name": "moment-objectid",
+  "version": "0.0.1",
+  "description": "Format a moment instance as ObjectID-string for use in MongoDB queries",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Prinzhorn/moment-objectid.git"
+  },
+  "keywords": [
+    "moment",
+    "objectid",
+    "mongodb",
+    "timestamp"
+  ],
+  "author": "Alexander Prinzhorn <alexander@prinzhorn.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prinzhorn/moment-objectid/issues"
+  },
+  "devDependencies": {
+    "moment": "*"
+  }
+}
