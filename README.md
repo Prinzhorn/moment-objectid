@@ -18,7 +18,7 @@ First do a `npm install moment-objectid`. Then `require` and execute it (the mod
 require('moment-objectid')();
 ```
 
-**Note: ** `moment-objectid` does _not_ list `moment` as dependency, because then it would only patch its own dependency and not necessarily the `moment` you use in your code.
+**Note:** `moment-objectid` does _not_ list `moment` as dependency, because then it would only patch its own dependency and not necessarily the `moment` you use in your code.
 
 Usage
 -----
